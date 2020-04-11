@@ -11,12 +11,12 @@ class Contact(val id : Int , var email : String)
 // and the only way to make a function static in Kotlin is to put it directly under a package.
 fun main(args: Array<String>) {
 
-    //Create instanse of class customer with default constructor.
-    //there is no new keyword in kotlin
+//    Create instanse of class customer with default constructor.
+//    there is no new keyword in kotlin
     val customer = Customer()
 
     //
-    var contact  = Contact(1,"email@gmail.com")
+    val contact  = Contact(1,"email@gmail.com")
 
     println(contact.id)
     println(contact.email)
