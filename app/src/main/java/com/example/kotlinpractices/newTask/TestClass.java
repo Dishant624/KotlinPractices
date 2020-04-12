@@ -11,7 +11,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.kotlinpractices.R;
 
 import java.io.File;
-import java.io.IOException;
 
 public class TestClass extends AppCompatActivity {
 
@@ -35,8 +34,6 @@ public class TestClass extends AppCompatActivity {
             } catch (MBTilesException e) {
                 e.printStackTrace();
                 Log.d(TAG, "onCreate: ");
-            } catch (IOException e) {
-                e.printStackTrace();
             }
         }else{
             Toast.makeText(this, "file not exits", Toast.LENGTH_SHORT).show();
