@@ -5,8 +5,6 @@ import android.content.Context
 import android.content.res.Resources
 
 class App :Application(){
-
-
     companion object{
         var context : Context ? = null
         var resource :Resources ?= null

@@ -13,13 +13,21 @@
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
         <activity android:name=".MainActivity">
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+        </activity>
+
+<!--        <activity android:name=".DesignPattern.Behavioral.Command.MainActivity"-->
+<!--            tools:ignore="InnerclassSeparator">-->
+
+<!--        </activity>-->
+        <activity android:name=".GPKGToMbtileTask.TestClass">
 
         </activity>
-        <activity android:name=".DesignPattern.Behavioral.Command.MainActivity"
-            tools:ignore="InnerclassSeparator">
-
-        </activity>
-        <activity android:name=".newTask.TestClass">
+        <activity android:name=".KFormDemo.FormListenerJavaActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
