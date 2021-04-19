@@ -1,8 +1,9 @@
 package com.example.kotlinpractices.DesignPattern.Behavioral.Command.Commands
 
 import com.example.kotlinpractices.DesignPattern.Behavioral.Command.Command
-import com.example.kotlinpractices.DesignPattern.Behavioral.Command.enums.Size
 import com.example.kotlinpractices.DesignPattern.Behavioral.Command.Target
+import com.example.kotlinpractices.DesignPattern.Behavioral.Command.enums.Size
+
 
 class ExpandSpell : Command() {
 
