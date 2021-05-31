@@ -24,6 +24,10 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
 }
 
 dependencies {
@@ -45,5 +49,4 @@ dependencies {
     implementation 'org.sqldroid:sqldroid:1.0.3'
 
     implementation "com.thejuki:k-form-master:7.0.0"
-
 }

@@ -11,7 +11,7 @@ import com.example.kotlinpractices.DesignPattern.Behavioral.Command.enums.Color
 import com.example.kotlinpractices.DesignPattern.Behavioral.Command.enums.Size
 import com.example.kotlinpractices.DesignPattern.Behavioral.Command.enums.Visibility
 import com.example.kotlinpractices.R
-import kotlinx.android.synthetic.main.activity_main.*;
+import kotlinx.android.synthetic.main.activity_main3.*;
 
 
 /** Advantages
@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_main3)
 
         Log.d(TAG, "ok")
         textView.text = "Hi Bro!"
