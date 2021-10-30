@@ -37,5 +37,5 @@ fun main() {
 }
 // this function is call when variable is initialized but change when using lazy
 fun customPrint(string: String) {
-    print(string.toUpperCase())
+    println(string.toUpperCase())
 }

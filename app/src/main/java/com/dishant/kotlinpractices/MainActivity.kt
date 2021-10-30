@@ -1,4 +1,4 @@
-//package com.example.kotlinpractices
+package com.dishant.kotlinpractices
 //
 //import androidx.appcompat.app.AppCompatActivity
 //import android.os.Bundle

@@ -6,26 +6,25 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
 
 
-data class User(var name:String,var lastname : String, var age:Int)
+data class User(var name: String, var lastname: String, var age: Int)
+
 fun main() {
 
 
-    fun userCreated(user: User){
+    fun userCreated(user: User) {
         println("new user ${user.name} created ")
     }
 
     //also return referenced object
-    val dishant : User = User(
+    val dishant: User = User(
         "Dishant",
         "patel",
         26
-    )
-        .also {
-            userCreated(it)
-            true
-        }
+    ).also {
+        userCreated(it)
+    }
 
-    print(dishant)
+    print("ok $dishant")
 
     GlobalScope.launch {
         delay(1000L)
