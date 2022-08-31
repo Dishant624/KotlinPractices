@@ -1,5 +1,7 @@
 package com.dishant.kotlinpractices.coreKotlin.scopeFuction
 
+import java.util.*
+
 fun main() {
 
     val isEmpty : Boolean = "Dishant".let {
@@ -7,7 +9,7 @@ fun main() {
         it.isEmpty()
     }
 
-//     let and run work same
+    //     let and run work same
     // diff is that we use it for referance of the class to call its methods
     //in run block we direct call is method without using (this)
     val isEmpty2 : Boolean = "Dishant".run {
@@ -17,7 +19,7 @@ fun main() {
 
     val toLowercase  by lazy { "Dishant".let {
         customPrint(it)
-        it.toLowerCase()
+        it.lowercase()
     }}
 
     println(" is empty $isEmpty")
@@ -37,5 +39,5 @@ fun main() {
 }
 // this function is call when variable is initialized but change when using lazy
 fun customPrint(string: String) {
-    println(string.toUpperCase())
+    println(string.uppercase())
 }

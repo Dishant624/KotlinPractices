@@ -3,7 +3,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.dishant.kotlinpractices">
 
-<!--    <uses-permission android:name="android.permission.CAMERA" />-->
     <application
         android:name="com.dishant.kotlinpractices.App"
         android:allowBackup="true"
@@ -13,12 +12,17 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
+        <activity
+            android:name=".KotlinCoroutinesActivity"
+            android:exported="false" />
         <activity android:name="com.dishant.kotlinpractices.coreKotlin.multiThreading.ThreadExampleActivity">
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
 
-<!--                <category android:name="android.intent.category.LAUNCHER" />-->
-<!--            </intent-filter>-->
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
         </activity>
         <activity android:name="com.dishant.kotlinpractices.surfaceview.SurfaceViewActivity">
             <intent-filter>
@@ -31,12 +35,14 @@
             android:name="com.dishant.kotlinpractices.DesignPattern.Behavioral.Command.MainActivity"
             tools:ignore="InnerclassSeparator" />
         <activity android:name="com.dishant.kotlinpractices.KFormDemo.FormListenerJavaActivity" />
-        <activity android:name="com.dishant.kotlinpractices.camera2api.CameraActivity" >
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
+        <activity android:name="com.dishant.kotlinpractices.camera2api.CameraActivity">
 
-<!--                <category android:name="android.intent.category.LAUNCHER" />-->
-<!--            </intent-filter>-->
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
         </activity>
     </application>
 
