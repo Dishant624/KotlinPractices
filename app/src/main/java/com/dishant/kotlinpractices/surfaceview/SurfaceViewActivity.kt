@@ -93,18 +93,18 @@ class SurfaceViewActivity : AppCompatActivity() {
         override fun onTouchEvent(event: MotionEvent?): Boolean {
             when (event!!.action) {
                 MotionEvent.ACTION_DOWN -> {
-                    this.x1 = event!!.x
-                    this.y1 = event!!.y
+                    this.x1 = event.x
+                    this.y1 = event.y
                     invalidate()
                 }
                 MotionEvent.ACTION_UP -> {
-                    this.x1 = event!!.x
-                    this.y1 = event!!.y
+                    this.x1 = event.x
+                    this.y1 = event.y
                     invalidate()
                 }
                 MotionEvent.ACTION_MOVE -> {
-                    this.x1 = event!!.x
-                    this.y1 = event!!.y
+                    this.x1 = event.x
+                    this.y1 = event.y
                     invalidate()
                 }
             }

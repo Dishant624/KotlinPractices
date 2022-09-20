@@ -15,10 +15,9 @@ fun main() = runBlocking { //create new coroutine that block the current main th
         20
     }
 
-
     // delay(4000) //main thread : wait for coroutine to finish
-//    jobDeferred.join()
-    var value= jobDeferred.await()
+    //    jobDeferred.join()
+    val value= jobDeferred.await()
 
     println("new values $value") //main thread
     println("Main program Ends ${Thread.currentThread().name}") //main thread

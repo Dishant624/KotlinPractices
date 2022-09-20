@@ -13,6 +13,9 @@
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
         <activity
+            android:name=".CustomViewActivity"
+            android:exported="false" />
+        <activity
             android:name=".KotlinCoroutinesActivity"
             android:exported="false" />
         <activity android:name="com.dishant.kotlinpractices.coreKotlin.multiThreading.ThreadExampleActivity">
