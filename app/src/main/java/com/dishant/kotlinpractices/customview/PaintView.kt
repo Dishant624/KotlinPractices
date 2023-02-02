@@ -9,7 +9,7 @@ import androidx.annotation.Nullable
 import kotlinx.android.synthetic.main.activity_thread_example.view.*
 import kotlin.math.abs
 
-class PaintView(context: Context, @Nullable attrs: AttributeSet) : View(context, attrs) {
+class PaintView(context: Context,  attrs: AttributeSet) : View(context, attrs) {
 
     private var btmBackground: Bitmap? = null
     private var btmView: Bitmap? = null

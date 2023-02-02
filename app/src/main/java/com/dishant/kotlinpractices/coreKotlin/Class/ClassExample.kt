@@ -6,6 +6,16 @@ class Customer
 //  and a constructor with two parameters id and email.
 class Contact(val id : Int , var email : String)
 
+class Human{
+    private lateinit var main : String
+
+    constructor(main: String) {
+        this.main = main
+    }
+
+
+}
+
 
 //You can't put main() inside a class in Kotlin. In Java it must be static,
 // and the only way to make a function static in Kotlin is to put it directly under a package.

@@ -13,7 +13,7 @@ import com.dishant.kotlinpractices.R
 
 // website link : https://proandroiddev.com/android-custom-view-level-1-67ed1c3febe1
 
-class CircleView(context: Context, @Nullable attrs: AttributeSet) : View(context, attrs) {
+class CircleView(context: Context, attrs: AttributeSet) : View(context, attrs) {
     var paint: Paint = Paint()
     var isCenter = false
     var centerOfX = 0f

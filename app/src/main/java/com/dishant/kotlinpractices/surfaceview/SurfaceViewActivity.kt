@@ -112,19 +112,19 @@ class SurfaceViewActivity : AppCompatActivity() {
         }
 
         override fun surfaceCreated(holder: SurfaceHolder) {
-            TODO("Not yet implemented")
+
         }
 
         override fun surfaceChanged(holder: SurfaceHolder, format: Int, width: Int, height: Int) {
-            TODO("Not yet implemented")
+
         }
 
         override fun surfaceDestroyed(holder: SurfaceHolder) {
-            TODO("Not yet implemented")
+
         }
 
         override fun surfaceRedrawNeeded(holder: SurfaceHolder) {
-            TODO("Not yet implemented")
+
         }
 
 
